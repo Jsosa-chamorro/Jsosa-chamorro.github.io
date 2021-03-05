@@ -1,3 +1,111 @@
+<!DOCTYPE html>
 <html>
-  <h1>hola mundo</h1>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+  <link type="text/css" rel="stylesheet" href="template.css" />
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+
+    .column {
+      float: left;
+      width: 100%;
+      padding: 10px;
+      height: 300px; /* Should be removed. Only for demonstration */
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    </style>
+</head>
+<html>
+    <div class="row">
+        <div class="column" style="background-color:#bbb; height: 250px !important;">
+            <img style="width: 200px; height: 200px; float: right;" src="foto.jpg" alt="foto">
+            <h2>Datos Personales</h2>
+            <label style="font-weight: bold; margin-left: 40px;">Nombre y Apellido:</label> Joel Ismael Sosa Chamorro
+            <br>
+            <br>
+            <label style="font-weight: bold; margin-left: 40px;">Fecha de Nacimiento:</label> 18/06/1991
+        </div>
+            
+        <hr>
+
+        <div class="column" style="background-color:#bbb;">
+            <h2>Informacion de Contacto</h2>
+            <label style="font-weight: bold; margin-left: 40px;">Telefono:</label> 0982470185
+            <br>
+            <br>
+            <label style="font-weight: bold; margin-left: 40px; ">Email:</label> joelsosauna@fpuna.edu.py
+            <br>
+            <br>
+            <label style="font-weight: bold; margin-left: 40px; ">Linkedin:</label> https://www.linkedin.com/in/joelsosa1991
+          <h2></h2>
+        </div>
+
+        <hr>
+
+          <div class="column" style="background-color:#bbb; height: 300px !important;">
+            <h2>Historial Académico</h2>
+                <label style="font-weight: bold;">Universitario</label> 
+                <dd> • Universidad Nacional de Asuncion - Facultad Politécnica</dd>
+                <dd>   Lic. en Ciencias Informaticas</dd>
+                <br>
+
+                <label style="font-weight: bold;">Secundaria</label> 
+                <dd> • 1ro - 3er Año (2007 - 2009) Colegio Nacional E.M.D Pablo L. Avila</dd>
+                <br>
+
+                <label style="font-weight: bold;">Primaria</label> 
+                <dd> • 1ro. – 4to. Grado (1998 – 2001) Escuela Graduada N° 300 Herminio Jiménez</dd>
+                <dd> • 5to. – 6to. Grado (2002 – 2003) Escuela Graduada N° 662 REPSA 1</dd>
+                <dd> • 7mo – 9no (2004 - 2006) Colegio Nacional E.M.D  Ysaty</dd>
+                <br>
+          </div>
+
+          <hr>
+          
+          <div class="column" style="background-color:#bbb; height: 400px !important;">
+            <h2>Experiencia Laboral</h2>
+              <label style="font-weight: bold; margin-left: 40px;">Direccion de Estadisticas, Encuestas y Censos</label> 
+              <br>
+              <label style="font-weight: bold; margin-left: 40px;">Departamento:</label> Informática y Cartografía
+              <br>
+              <label style="font-weight: bold; margin-left: 40px;">Cargo:</label> Tecnico Normalizador
+              <br>
+              <label style="font-weight: bold; margin-left: 40px;">Funciones:</label>
+              <br>
+              <dd> • Preparación de equipos informáticos a ser utilizados en el Proyecto.</dd>
+              <dd> • Instalación de software a los equipos informáticos.</dd>
+              <dd> • Capacitación a Responsables de Puestos de Captura sobre el Sistema a utilizarse durante el proyecto.</dd>
+              <dd> • Mantenimiento y Reparación de averías en el sistema o PC.</dd>
+              <dd> • Descarga de datos de PDA a la Base de datos.</dd>
+              
+              <br>
+            <h2></h2>
+          </div>
+
+          <hr>
+          
+          <div class="column" style="background-color:#bbb;">
+            <h2>Hobbies/Pasatiempos</h2>
+              <p>- Jugar Futbol</p>
+              <p>- Ver Peliculas</p>
+              <p>- Compartir en familia</p>              
+              
+            <h2></h2>
+          </div>
+  
+
+
+      </div>
+
+
 </html>
